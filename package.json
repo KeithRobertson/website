@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "http://KeithRobertson.github.io/website",
+  "homepage": "https://KeithRobertson.github.io/website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
