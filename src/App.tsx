@@ -1,13 +1,20 @@
-import React from 'react';
+import React, {StrictMode} from 'react';
 import './App.css';
-import Banner from "./component/Banner";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Home from "./component/Home/Home";
+import Library from "./component/Library/Library";
 
 function App() {
-  return (
-    <div className="App">
-      <Banner/>
-    </div>
-  );
+    return (
+        <StrictMode>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/library" element={<Library/>}/>
+                </Routes>
+            </BrowserRouter>
+        </StrictMode>
+    );
 }
 
 export default App;
