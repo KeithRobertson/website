@@ -26,46 +26,6 @@ const CareerTimeline = (careerTimeline: { timeline: TimelineProps[] }) => {
                 </TimelineSeparator>
                 <TimelineContent>{timeline.description}</TimelineContent>
             </TimelineItem>)}
-        <TimelineItem>
-            <TimelineOppositeContent color="text.secondary">
-                2009
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-                <TimelineDot/>
-                <TimelineConnector/>
-            </TimelineSeparator>
-            <TimelineContent>University of Edinburgh - Computer Science</TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-            <TimelineOppositeContent color="text.secondary">
-                2013
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-                <TimelineDot/>
-                <TimelineConnector/>
-            </TimelineSeparator>
-            <TimelineContent>Kana Software - Graduate Software Engineer</TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-            <TimelineOppositeContent color="text.secondary">
-                2014
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-                <TimelineDot/>
-                <TimelineConnector/>
-            </TimelineSeparator>
-            <TimelineContent>Kana Software - Software Engineer</TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-            <TimelineOppositeContent color="text.secondary">
-                2020
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-                <TimelineDot/>
-                <TimelineConnector/>
-            </TimelineSeparator>
-            <TimelineContent>Verint Systems - Senior Software Engineer</TimelineContent>
-        </TimelineItem>
     </Timeline>);
 }
 
