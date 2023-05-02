@@ -7,12 +7,12 @@ const SkillList = (skillsProp: { skills: Skill[] }) => {
         <>
             <Typography variant="h5" align="center">Skills</Typography>
             <Stack
-                spacing={12}
                 direction='row'
+                justifyContent="space-evenly"
+                alignItems="baseline"
+                spacing={2}
                 divider={<Divider orientation="vertical" flexItem></Divider>}
-                sx={{
-                    'justify-content': 'center'
-                }}>
+                >
                 {Array.from(new Set(skills.map(skill => skill.category))).map(category => {
                     return (<List subheader={
                         <ListSubheader>
